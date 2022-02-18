@@ -1,0 +1,16 @@
+{
+  "name": "my-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ghpages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://FrostyyOPP.github.io/mycalculator",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
