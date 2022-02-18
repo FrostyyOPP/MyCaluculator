@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.body{
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;   
+    padding: 5px;
+    background: url(img/naruto.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -1px 1px black;
+}
+.button{
+    font-size: 25px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background: white;
+    color: #362706;
+    margin: 4px;
+    display:inline-block;
+    flex-direction: row;
+    width: 40px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+}
+.eq-button{
+    font-size: 25px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background: #95CD41;
+    color: white;
+    margin: 4px;
+    display:inline-block;
+    flex-direction: row;
+    width: 40px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+}
+.clear-button{
+    font-size: 25px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background: white;
+    color: #362706;
+    margin: 4px;
+    display:inline-block;
+    flex-direction: row;
+    width: 40px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+}
+.erase-button{
+    font-size: 25px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    background: white;
+    color: #362706;
+    margin: 4px;
+    display:inline-block;
+    flex-direction: row;
+    width: 40px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+}
+.erase-button:hover{
+    color: white;
+    background:#362706;
+}
+
+.eq-button:hover{
+    color: white;
+    background:olive;
+}
+.clear-button:hover{
+    color: white;
+    background:#362706;
+}
+.button:hover{
+    color: white;
+    background: #9AD0EC;
+}
+#equal-btn{
+    width: 106px;
+}
+.container{
+    align-items: center;
+    border-radius: 15px;
+    text-align: right;
+    margin: top 10px; ;
+    padding: 26px;
+    color: black;
+    background-color: transparent;
+    width:242px;
+    height: 50px;
+    margin: 2px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+.container p{
+    padding-top: 25px;
+    font-size: 40px;
+    text-shadow: 10px;
+}
+.output{
+    font-size: 30px;
+    overflow-y: auto;
+}
+#clear-btn{
+    background-color:red;
+    color: white;
+}
+#clear-btn:hover{
+ background-color: royalblue;
+ color: black;   
+}
+.name{
+    color: white;
+    font-weight: 500;
+}
